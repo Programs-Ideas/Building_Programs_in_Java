@@ -1,4 +1,4 @@
-package main;
+package Sequential_Structure;
 
 import java.util.*;
 
@@ -22,5 +22,4 @@ public class MethodCalculateTwoNumbers {
 		int calcular = x + y;
 		return calcular;
 	}	
-
 }

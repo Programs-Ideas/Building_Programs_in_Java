@@ -1,4 +1,4 @@
-package main;
+package Sequential_Structure;
 
 import java.util.Scanner;
 
@@ -16,17 +16,24 @@ public class EscapeSequences {
 		String horizontalTabulation = sc.nextLine();
 		System.out.print("\t" + horizontalTabulation);
 		
-		System.out.println("\nCar return: ");
+		System.out.println("\n\nCar return: ");
 		String carReturn = sc.nextLine();
 		System.out.print("\r" + carReturn);
 		
-		System.out.println("\nInverted bars: ");
+		System.out.println("\n\nInverted bars: ");
 		String invertedBars = sc.nextLine(); 
 		System.out.print("\\" + invertedBars);
 		
-		System.out.println("\nDouble quotation marks: ");
+		System.out.println("\n\nDouble quotation marks: ");
 		String doubleQuotationMarks = sc.nextLine();
 		System.out.printf("\"%s\"", doubleQuotationMarks);
+		
+		
+		System.out.println("\n\n1° - Input: ");
+		String input = sc.nextLine();
+		System.out.println("\n\n2° - Input:");
+		String anotherInput = sc.nextLine();
+		System.out.printf("\n1 - Output %s\n 2 	- Output %s\n", input, anotherInput);
 		
 		sc.close();
 	}
