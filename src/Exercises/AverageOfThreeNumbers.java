@@ -8,6 +8,8 @@ public class AverageOfThreeNumbers {
 		
 		Scanner sc = new Scanner(System.in);
 		
+		System.out.println("Test Data:\n ");
+		
 		System.out.print("Enter the 1° number for average: ");
 		float firstNumber = sc.nextInt();
 		
